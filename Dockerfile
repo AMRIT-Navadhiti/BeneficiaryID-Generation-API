@@ -13,7 +13,7 @@ COPY src ./src
 COPY checkstyle.xml .
 
 # Copy common_example.properties to the container
-COPY src/main/environment/common_example.properties /app/src/main/environment/common_example.properties
+COPY src/main/environment/bengen_example.properties /app/src/main/environment/bengen_example.properties
 
 # Copy entrypoint script and give execute permissions
 COPY entrypoint.sh /entrypoint.sh
